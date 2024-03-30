@@ -4,67 +4,75 @@ const articles = [
     title: "Beans Porridge",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: 'images/beans-porridge.webp',
+    tag: '/beans porridge.html'
   },
   {
     title: "Yam and Egg Sauce",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/yam-and-egg.jpg",
+    tag: '/yam-and-egg.html'
   },
   {
     title: "Fried Rice",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/fried rice.jpg",
+    tag: '/fried-rice.html'
   },
   {
     title: "Bitterleaf Soup",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/bitterleaf-soup.jpg",
+    tag: '/bitterleaf-soup.html'
   },
   {
     title: "Nigerian Beef Stew",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/beef-stew.jpg",
+    tag: '/beef-stew.html'
   },
   {
     title: "Pepper Soup",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/pepper-soup.jpg",
+    tag: '/pepper-soup.html'
   },
   {
     title: "Ogbono Soup",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/ogbono-soup.jpg",
+    tag: '/ogbono-soup.html'
   },
   {
     title: "Native Rice",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/native-rice.jpg",
+    tag: '/native-rice.html'
   },
   {
     title: "Akara",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/akara.jpg",
+    tag: '/akara.html'
   },
   {
     title: "Moi Moi (Steamed Beans Pudding)",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/moi moi.jpg",
+    tag: '/moimoi.html'
   },{
     title: "Fried Rice",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+    image: "images/fried rice.jpg",
   },{
-    title: "Fried Rice",
+    title: "Meat Pie",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+    image: "images/meat-pie.jpeg",
+    tag: '/meat-pie.html'
   },{
-    title: "Fried Rice",
+    title: "Suya",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+    image: "images/suya.jpg",
+    tag: "/suya.html"
   },{
     title: "Fried Rice",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -116,7 +124,7 @@ articles.forEach((item) => {
     <p>
     ${item.content}
     </p>
-    <a href="recipe.html">View Recipe</a>
+    <a href="${item.tag}">View Recipe</a>
   `;
   recipeCards.appendChild(div);
 });
@@ -139,7 +147,7 @@ searchVal.addEventListener("input", (e) => {
       <p>
       ${item.content}
       </p>
-      <a href="recipe.html">View Recipe</a>
+      <a href="${item.tag}">View Recipe</a>
     `;
     recipeCards.appendChild(div);
   });
