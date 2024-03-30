@@ -22,7 +22,7 @@ const articles = [
     title: "Bitterleaf Soup",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     image: "images/bitterleaf-soup.jpg",
-    tag: '/bitterleaf-soup.html'
+    tag: '/bitter-leaf.html'
   },
   {
     title: "Nigerian Beef Stew",
