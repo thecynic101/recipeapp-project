@@ -2,114 +2,110 @@
 const articles = [
   {
     title: "Beans Porridge",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A traditional Nigerian dish that is rich in protein and fiber.",
     image: 'images/beans-porridge.webp',
     tag: '/beans porridge.html'
-  },
+    },
   {
     title: "Yam and Egg Sauce",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A popular Nigerian dish enjoyed as a breakfast or brunch option.",
     image: "images/yam-and-egg.jpg",
     tag: '/yam-and-egg.html'
   },
   {
     title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A popular dish in Nigerian cuisine, often served at parties and special occasions.",
     image: "images/fried rice.jpg",
     tag: '/fried-rice.html'
   },
   {
     title: "Bitterleaf Soup",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A traditional Nigerian soup made with bitter leaves and assorted meats.",
     image: "images/bitterleaf-soup.jpg",
     tag: '/bitter-leaf.html'
   },
   {
     title: "Nigerian Beef Stew",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A staple dish in Nigerian cuisine and is often served as a main course alongside rice, yam, or other starches.",
     image: "images/beef-stew.jpg",
     tag: '/beef-stew.html'
   },
   {
     title: "Pepper Soup",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A spicy and flavorful Nigerian soup that is typically enjoyed as a appetizer or main course.",
     image: "images/pepper-soup.jpg",
     tag: '/pepper-soup.html'
   },
   {
     title: "Ogbono Soup",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A rich and hearty Nigerian soup made with ground ogbono seeds, assorted meats, and vegetables.",
     image: "images/ogbono-soup.jpg",
     tag: '/ogbono-soup.html'
   },
   {
     title: "Native Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A traditional dish originating from the Niger Delta region of Nigeria.",
     image: "images/native-rice.jpg",
     tag: '/native-rice.html'
   },
   {
     title: "Akara",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A popular Nigerian street food made from deep-fried bean batter.",
     image: "images/akara.jpg",
     tag: '/akara.html'
   },
   {
     title: "Moi Moi (Steamed Beans Pudding)",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A traditional Nigerian dish made from ground beans and typically steamed until firm.",
     image: "images/moi moi.jpg",
     tag: '/moimoi.html'
   },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "images/fried rice.jpg",
-  },{
     title: "Meat Pie",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A beloved snack in Nigeria, often enjoyed on the go or as a delicious appetizer.",
     image: "images/meat-pie.jpeg",
     tag: '/meat-pie.html'
   },{
     title: "Suya",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    content: "A popular West African street food, particularly in Nigeria, where it is enjoyed as a snack or appetizer.",
     image: "images/suya.jpg",
-    tag: "/suya.html"
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },{
-    title: "Fried Rice",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
-  },
+    tag: "/suya.html" }
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },{
+  //   title: "Fried Rice",
+  //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+  //   image: "https://i.ibb.co/s5CkKqc/image-omelette.jpg",
+  // },
 ];
 
 const recipeCards = document.getElementById("recipe-container");
@@ -122,7 +118,7 @@ articles.forEach((item) => {
     <img src="${item.image}" alt="food" />
     <h2>${item.title}</h2>
     <p>
-    ${item.content}
+    ${item.content.substring(0, 100)}
     </p>
     <a href="${item.tag}">View Recipe</a>
   `;
