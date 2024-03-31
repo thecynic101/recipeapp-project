@@ -1,4 +1,4 @@
-# Frontend Mentor - Newsletter sign-up form with success message solution
+# Recipe App (Nigerian Recipes)
 
 This is a recipe app designed to provide users with access to a variety of Nigerian recipes. Users can search for recipes by keyword, making it easy to find their favorite dishes or discover new ones. The app features recipes across different categories, including soups & stews, rice dishes main dishes and snacks.
 
@@ -28,7 +28,7 @@ Responsive design: The app should be designed to work seamlessly across differen
 
 ### Links
 
-- Solution URL: [Solution url](https://github.com/thecynic101/Newsletter-Sign-Up)
+- Solution URL: [Solution url](https://github.com/thecynic101/recipeapp-project)
 - Live Site URL: [Live site](https://thecynic101.github.io/recipeapp-project/)
 
 
