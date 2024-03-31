@@ -4,7 +4,8 @@ const articles = [
     title: "Beans Porridge",
     content: "A traditional Nigerian dish that is rich in protein and fiber.",
     image: 'images/beans-porridge.webp',
-    tag: 'recipes/beans-porridge.html'
+    tag: 'recipes/beans-porridge.html',
+    // ingredients:'onion, palm oil, beans, crayfish'
     },
   {
     title: "Yam and Egg Sauce",
@@ -129,7 +130,9 @@ searchVal.addEventListener("input", (e) => {
   const value = e.target.value;
 
   const filteredArticles = articles.filter((item) =>
-    item.title.toLowerCase().includes(value.toLowerCase())
+    item.title.toLowerCase().includes(value.toLowerCase()),
+    // item.ingredients.toLowerCase().includes(value.toLowerCase())
+
   );
 
   recipeCards.innerHTML = "";
