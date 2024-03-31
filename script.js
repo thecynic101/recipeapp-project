@@ -10,65 +10,65 @@ const articles = [
     title: "Yam and Egg Sauce",
     content: "A popular Nigerian dish enjoyed as a breakfast or brunch option.",
     image: "images/yam-and-egg.jpg",
-    tag: '/yam-and-egg.html'
+    tag: 'recipes/yam-and-egg.html'
   },
   {
     title: "Fried Rice",
     content: "A popular dish in Nigerian cuisine, often served at parties and special occasions.",
     image: "images/fried rice.jpg",
-    tag: '/fried-rice.html'
+    tag: 'recipes/fried-rice.html'
   },
   {
     title: "Bitterleaf Soup",
     content: "A traditional Nigerian soup made with bitter leaves and assorted meats.",
     image: "images/bitterleaf-soup.jpg",
-    tag: '/bitter-leaf.html'
+    tag: 'recipes/bitter-leaf.html'
   },
   {
     title: "Nigerian Beef Stew",
     content: "A staple dish in Nigerian cuisine and is often served as a main course alongside rice, yam, or other starches.",
     image: "images/beef-stew.jpg",
-    tag: '/beef-stew.html'
+    tag: 'recipes/beef-stew.html'
   },
   {
     title: "Pepper Soup",
     content: "A spicy and flavorful Nigerian soup that is typically enjoyed as a appetizer or main course.",
     image: "images/pepper-soup.jpg",
-    tag: '/pepper-soup.html'
+    tag: 'recipes/pepper-soup.html'
   },
   {
     title: "Ogbono Soup",
     content: "A rich and hearty Nigerian soup made with ground ogbono seeds, assorted meats, and vegetables.",
     image: "images/ogbono-soup.jpg",
-    tag: '/ogbono-soup.html'
+    tag: 'recipes/ogbono-soup.html'
   },
   {
     title: "Native Rice",
     content: "A traditional dish originating from the Niger Delta region of Nigeria.",
     image: "images/native-rice.jpg",
-    tag: '/native-rice.html'
+    tag: 'recipes/native-rice.html'
   },
   {
     title: "Akara",
     content: "A popular Nigerian street food made from deep-fried bean batter.",
     image: "images/akara.jpg",
-    tag: '/akara.html'
+    tag: 'recipes/akara.html'
   },
   {
     title: "Moi Moi (Steamed Beans Pudding)",
     content: "A traditional Nigerian dish made from ground beans and typically steamed until firm.",
     image: "images/moi moi.jpg",
-    tag: '/moimoi.html'
+    tag: 'recipes/moimoi.html'
   },{
     title: "Meat Pie",
     content: "A beloved snack in Nigeria, often enjoyed on the go or as a delicious appetizer.",
     image: "images/meat-pie.jpeg",
-    tag: '/meat-pie.html'
+    tag: 'recipes/meat-pie.html'
   },{
     title: "Suya",
     content: "A popular West African street food, particularly in Nigeria, where it is enjoyed as a snack or appetizer.",
     image: "images/suya.jpg",
-    tag: "/suya.html" }
+    tag: "recipes/suya.html" }
   // },{
   //   title: "Fried Rice",
   //   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
