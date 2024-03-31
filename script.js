@@ -4,7 +4,7 @@ const articles = [
     title: "Beans Porridge",
     content: "A traditional Nigerian dish that is rich in protein and fiber.",
     image: 'images/beans-porridge.webp',
-    tag: '/beans-porridge.html'
+    tag: 'recipes/beans-porridge.html'
     },
   {
     title: "Yam and Egg Sauce",
