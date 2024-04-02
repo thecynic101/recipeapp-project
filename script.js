@@ -59,7 +59,7 @@ const articles = [
     title: "Moi Moi (Steamed Beans Pudding)",
     content: "A traditional Nigerian dish made from ground beans and typically steamed until firm.",
     image: "images/moi moi.jpg",
-    tag: 'recipes/moimoi.html'
+    tag: 'recipes/moi-moi.html'
   },{
     title: "Meat Pie",
     content: "A beloved snack in Nigeria, often enjoyed on the go or as a delicious appetizer.",
