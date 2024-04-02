@@ -41,7 +41,7 @@ const articles = [
     title: "Ogbono Soup",
     content: "A rich and hearty Nigerian soup made with ground ogbono seeds, assorted meats, and vegetables.",
     image: "images/ogbono-soup.jpg",
-    tag: 'recipes/ogbono-soup.html'
+    tag: 'recipes/ogbono.html'
   },
   {
     title: "Native Rice",
