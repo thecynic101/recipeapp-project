@@ -47,8 +47,12 @@ const articles = [
     title: "Ogbono Soup",
     content: "A rich and hearty Nigerian soup made with ground ogbono seeds, assorted meats, and vegetables.",
     image: "images/ogbono-soup.jpg",
+<<<<<<< HEAD
     tag: 'recipes/ogbono.html',
     ingredients:['crayfish', 'palm oil', 'assorted meats', 'crayfish']
+=======
+    tag: 'recipes/ogbono.html'
+>>>>>>> 87b250aedb92d1dc8c3434528c3557d4a257e422
   },
   {
     title: "Native Rice",
@@ -68,8 +72,12 @@ const articles = [
     title: "Moi Moi (Steamed Beans Pudding)",
     content: "A traditional Nigerian dish made from ground beans and typically steamed until firm.",
     image: "images/moi moi.jpg",
+<<<<<<< HEAD
     tag: 'recipes/moi-moi.html',
     ingredients:['onions', 'eggs', 'beans', 'crayfish']
+=======
+    tag: 'recipes/moi-moi.html'
+>>>>>>> 87b250aedb92d1dc8c3434528c3557d4a257e422
   },{
     title: "Meat Pie",
     content: "A beloved snack in Nigeria, often enjoyed on the go or as a delicious appetizer.",
